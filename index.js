@@ -12,7 +12,7 @@ button.addEventListener("click", () => {
            
         }
          console.log(local);
-        console.log("For this array the function will return frequency of " + local.length + " for the word " + local[0] + ".");
+        result.textContent= "For this array the function will return frequency of " + local.length + " for the word " + local[0] + ".";
 
     }
     frequency(places, target_location.value);
